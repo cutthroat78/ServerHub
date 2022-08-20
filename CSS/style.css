@@ -1,60 +1,30 @@
 body {
     background-color: black;
-    }
+}
 
 h1, h2, h3, footer {
     text-align: center;
     color: #ff6309;
-    }
-
-body {padding: 25px;}
-    
-* {
-    box-sizing: border-box;
-    }
-
-.zoom {
-    transition: transform .2s;
-    }
-
-.zoom:hover {
-    transform: scale(1.05);
-    }
-    
-.column {
-     float: left;
-     width: 33.33%;
-     padding: 5px;
-    }
-    
-.row::after {
-     content: "";
-     clear: both;
-     display: table;
-    }
+}  
 
 .icon {
-      width: 250px;
-      height: 250px;
-      border: 0;
-    }
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
+}    
 
-a:visited { 
-        text-decoration: none; color:white; 
+.icon:hover {
+    transform: scale(1.05);
+}
+
+a, a:visited, a:focus { 
+    text-decoration: none; color:white; 
 }
     
-a:hover { 
-        text-decoration: none; color:red; 
+a:hover, a:active, a:hover { 
+    text-decoration: none; color:red 
 }
-    
-a:focus { 
-        text-decoration: none; color:white; 
-}
-    
-a:hover, a:active { 
-        text-decoration: none; color:red 
-}
-    
-a.nounderline:link {
-        text-decoration: none;
+
+table {
+    color: #ff6309;
 }
